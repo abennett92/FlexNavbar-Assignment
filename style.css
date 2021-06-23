@@ -1,0 +1,46 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.nav {
+    display: flex;
+    background-color: #333;
+    padding: 5px;
+    width: 1500px;
+}
+
+.nav-title {
+    color: white;
+    margin-left: 10px;
+}
+
+.nav-links {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 900px;
+}
+
+li a{
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    background-color: #17a2b8;
+    width: 80px;
+    height: 30px;
+    border: 2px black solid;
+}
+
+button:active {
+    background-color: white
+}
